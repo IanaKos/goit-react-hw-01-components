@@ -1,0 +1,31 @@
+.friend {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid rgb(124, 124, 124);
+  width: 500px;
+}
+
+.avatarImg {
+  border: 1px solid rgb(124, 124, 124);
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 0 40px;
+}
+.isOnline {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border-radius: 50%;
+  margin-left: 40px;
+}
+.isOffline {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  margin-left: 40px;
+}
